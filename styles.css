@@ -666,7 +666,7 @@ footer .social-icons a:hover{
     }
 
     .contain .row a button{
-        font-size: 9.3px;
+        font-size: 9px;
     }
 
     /* recipe */
@@ -693,6 +693,70 @@ footer .social-icons a:hover{
     /* steps */
     .steps {
         height: 320vh;
+    }
+
+    .steps .containers {
+        margin-top: 39px;
+    }
+
+    .footerBottom p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:363px) {
+
+    .logo a {
+        font-size: 25px;
+    }
+    .home {
+        height: 120vh;
+    }
+
+    .card .contain h2 {
+        font-size: 25px;
+    }
+
+    .contain p {
+        font-size: 16px;
+    }
+
+    .contain .row a button{
+        font-size: 15px;
+    }
+
+    /* recipe */
+    .recipe {
+        height: 170vh;
+        margin-top: 20px;
+    }
+
+    .ingri {
+        height: 980px;
+    }
+
+    .recipe .container {
+        margin-bottom: 120px;
+        padding-top: 10px;
+        height: 1040px;
+    }
+
+    .pics .h1 {
+        font-size: 22.1px;
+    }
+
+    .pics iframe {
+        width: 260px;
+        height: 180px;
+    }
+    
+    .text-ingri {
+        height: 880px;
+    }
+
+    /* steps */
+    .steps {
+        height: 370vh;
     }
 
     .steps .containers {
