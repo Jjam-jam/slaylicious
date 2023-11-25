@@ -29,6 +29,7 @@
 
 body {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 section {
@@ -307,6 +308,7 @@ a button.btn:hover {
     padding: 20px;
     margin-top: 20px;
     background-image: url('img/pic1.png');
+    background-repeat: no-repeat;
     background-color: #000;
     color: #fff;
     border-radius: 10px;
@@ -597,7 +599,107 @@ footer .social-icons a:hover{
     .steps {
         height: 155vh;
         margin-top: 10px;
-        padding-top: 100px;
+        padding-top: 70px;
         padding-bottom: 20px;
+    }
+}
+
+
+
+/* ==MEDIA== */
+
+@media screen and (max-width:495px) {
+    .home {
+        height: 110vh;
+    }
+
+    .contain .row a button{
+        font-size: 13.4px;
+    }
+
+    /* recipe */
+    .recipe {
+        height: 140vh;
+        margin-top: 20px;
+    }
+
+    .recipe .container {
+        margin-bottom: 80px;
+        padding-top: 10px;
+        height: 900px;
+    }
+
+    .pics iframe {
+        width: 375px;
+    }
+    
+    .text-ingri {
+        height: 880px;
+    }
+
+    /* steps */
+    .steps {
+        height: 260vh;
+    }
+
+    .steps .containers {
+        margin-top: 39px;
+    }
+
+    .footerBottom p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:485px) and (min-width:360px) {
+    .home {
+        height: 110vh;
+    }
+
+    .card .contain h2 {
+        font-size: 30px;
+    }
+
+    .contain p {
+        font-size: 16px;
+    }
+
+    .contain .row a button{
+        font-size: 9.3px;
+    }
+
+    /* recipe */
+    .recipe {
+        height: 165vh;
+        margin-top: 20px;
+    }
+
+    .recipe .container {
+        margin-bottom: 120px;
+        padding-top: 10px;
+        height: 1040px;
+    }
+
+    .pics iframe {
+        width: 300px;
+        height: 173px;
+    }
+    
+    .text-ingri {
+        height: 880px;
+    }
+
+    /* steps */
+    .steps {
+        height: 320vh;
+    }
+
+    .steps .containers {
+        margin-top: 39px;
+    }
+
+    .footerBottom p {
+        font-size: 14px;
     }
 }
