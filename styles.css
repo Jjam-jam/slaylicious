@@ -365,7 +365,7 @@ a button.btn:hover {
     background: url('img/pic2.png') no-repeat;
     background-size: cover;
     width: 100%;
-    height: 237vh;
+    height: 257vh;
     color: #47210c;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
@@ -535,6 +535,7 @@ footer .social-icons a:hover{
     .home {
         justify-content: center;
         align-items: center;
+        height: 100vh;
     }
 
     .card {
@@ -566,7 +567,8 @@ footer .social-icons a:hover{
     /* ==RECIPE== */
 
     .recipe { 
-        height: 100vh;
+        height: 115vh;
+        padding-top: 100px;
     }
 
     .container {
@@ -593,8 +595,9 @@ footer .social-icons a:hover{
     /* ==STEPS== */
 
     .steps {
-        height: 145vh;
+        height: 155vh;
         margin-top: 10px;
         padding-top: 100px;
+        padding-bottom: 20px;
     }
 }
