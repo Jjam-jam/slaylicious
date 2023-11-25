@@ -652,7 +652,7 @@ footer .social-icons a:hover{
 }
 
 
-@media (max-width:485px) and (min-width:360px) {
+@media (max-width:485px) and (min-width:350px) {
     .home {
         height: 110vh;
     }
@@ -704,7 +704,7 @@ footer .social-icons a:hover{
     }
 }
 
-@media (max-width:363px) {
+@media (max-width:350px) {
 
     .logo a {
         font-size: 25px;
